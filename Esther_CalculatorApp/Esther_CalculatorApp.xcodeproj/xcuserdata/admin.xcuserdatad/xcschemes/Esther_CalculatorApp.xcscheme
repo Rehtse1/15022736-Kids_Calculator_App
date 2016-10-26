@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8405FBBA1DBAE677004684B6"
+               BlueprintIdentifier = "84597B191DBD488F00ED3E00"
                BuildableName = "Esther_CalculatorApp.app"
                BlueprintName = "Esther_CalculatorApp"
                ReferencedContainer = "container:Esther_CalculatorApp.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8405FBCE1DBAE677004684B6"
+               BlueprintIdentifier = "84597B2D1DBD489000ED3E00"
                BuildableName = "Esther_CalculatorAppTests.xctest"
                BlueprintName = "Esther_CalculatorAppTests"
                ReferencedContainer = "container:Esther_CalculatorApp.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8405FBD91DBAE677004684B6"
+               BlueprintIdentifier = "84597B381DBD489000ED3E00"
                BuildableName = "Esther_CalculatorAppUITests.xctest"
                BlueprintName = "Esther_CalculatorAppUITests"
                ReferencedContainer = "container:Esther_CalculatorApp.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8405FBBA1DBAE677004684B6"
+            BlueprintIdentifier = "84597B191DBD488F00ED3E00"
             BuildableName = "Esther_CalculatorApp.app"
             BlueprintName = "Esther_CalculatorApp"
             ReferencedContainer = "container:Esther_CalculatorApp.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8405FBBA1DBAE677004684B6"
+            BlueprintIdentifier = "84597B191DBD488F00ED3E00"
             BuildableName = "Esther_CalculatorApp.app"
             BlueprintName = "Esther_CalculatorApp"
             ReferencedContainer = "container:Esther_CalculatorApp.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8405FBBA1DBAE677004684B6"
+            BlueprintIdentifier = "84597B191DBD488F00ED3E00"
             BuildableName = "Esther_CalculatorApp.app"
             BlueprintName = "Esther_CalculatorApp"
             ReferencedContainer = "container:Esther_CalculatorApp.xcodeproj">

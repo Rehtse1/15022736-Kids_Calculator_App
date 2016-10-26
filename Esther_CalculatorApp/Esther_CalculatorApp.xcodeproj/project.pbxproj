@@ -7,64 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8405FBBF1DBAE677004684B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405FBBE1DBAE677004684B6 /* AppDelegate.swift */; };
-		8405FBC11DBAE677004684B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405FBC01DBAE677004684B6 /* ViewController.swift */; };
-		8405FBC41DBAE677004684B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8405FBC21DBAE677004684B6 /* Main.storyboard */; };
-		8405FBC61DBAE677004684B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8405FBC51DBAE677004684B6 /* Assets.xcassets */; };
-		8405FBC91DBAE677004684B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8405FBC71DBAE677004684B6 /* LaunchScreen.storyboard */; };
-		8405FBD41DBAE677004684B6 /* Esther_CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405FBD31DBAE677004684B6 /* Esther_CalculatorAppTests.swift */; };
-		8405FBDF1DBAE677004684B6 /* Esther_CalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405FBDE1DBAE677004684B6 /* Esther_CalculatorAppUITests.swift */; };
+		84597B1E1DBD488F00ED3E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84597B1D1DBD488F00ED3E00 /* AppDelegate.swift */; };
+		84597B201DBD488F00ED3E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84597B1F1DBD488F00ED3E00 /* ViewController.swift */; };
+		84597B231DBD488F00ED3E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84597B211DBD488F00ED3E00 /* Main.storyboard */; };
+		84597B251DBD489000ED3E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84597B241DBD489000ED3E00 /* Assets.xcassets */; };
+		84597B281DBD489000ED3E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84597B261DBD489000ED3E00 /* LaunchScreen.storyboard */; };
+		84597B331DBD489000ED3E00 /* Esther_CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84597B321DBD489000ED3E00 /* Esther_CalculatorAppTests.swift */; };
+		84597B3E1DBD489000ED3E00 /* Esther_CalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84597B3D1DBD489000ED3E00 /* Esther_CalculatorAppUITests.swift */; };
+		84999B791DC00FDB000F2B98 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B781DC00FDB000F2B98 /* apple.png */; };
+		84999B891DC00FEF000F2B98 /* number0.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B7A1DC00FEF000F2B98 /* number0.png */; };
+		84999B8A1DC00FEF000F2B98 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B7B1DC00FEF000F2B98 /* number1.png */; };
+		84999B8B1DC00FEF000F2B98 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B7C1DC00FEF000F2B98 /* number2.png */; };
+		84999B8C1DC00FEF000F2B98 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B7D1DC00FEF000F2B98 /* number3.png */; };
+		84999B8D1DC00FEF000F2B98 /* number4.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B7E1DC00FEF000F2B98 /* number4.png */; };
+		84999B8E1DC00FEF000F2B98 /* number5.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B7F1DC00FEF000F2B98 /* number5.png */; };
+		84999B8F1DC00FEF000F2B98 /* number6.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B801DC00FEF000F2B98 /* number6.png */; };
+		84999B901DC00FEF000F2B98 /* number7.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B811DC00FEF000F2B98 /* number7.png */; };
+		84999B911DC00FEF000F2B98 /* number8.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B821DC00FEF000F2B98 /* number8.png */; };
+		84999B921DC00FEF000F2B98 /* number9.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B831DC00FEF000F2B98 /* number9.png */; };
+		84999B931DC00FEF000F2B98 /* plate_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B841DC00FEF000F2B98 /* plate_white.png */; };
+		84999B941DC00FEF000F2B98 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B851DC00FEF000F2B98 /* plate.png */; };
+		84999B951DC00FEF000F2B98 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B861DC00FEF000F2B98 /* play_again.png */; };
+		84999B961DC00FEF000F2B98 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B871DC00FEF000F2B98 /* star_kids.png */; };
+		84999B971DC00FEF000F2B98 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B881DC00FEF000F2B98 /* thumbs_up.png */; };
+		84999B991DC01134000F2B98 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84999B981DC01134000F2B98 /* DragView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8405FBD01DBAE677004684B6 /* PBXContainerItemProxy */ = {
+		84597B2F1DBD489000ED3E00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8405FBB31DBAE677004684B6 /* Project object */;
+			containerPortal = 84597B121DBD488F00ED3E00 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8405FBBA1DBAE677004684B6;
+			remoteGlobalIDString = 84597B191DBD488F00ED3E00;
 			remoteInfo = Esther_CalculatorApp;
 		};
-		8405FBDB1DBAE677004684B6 /* PBXContainerItemProxy */ = {
+		84597B3A1DBD489000ED3E00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8405FBB31DBAE677004684B6 /* Project object */;
+			containerPortal = 84597B121DBD488F00ED3E00 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8405FBBA1DBAE677004684B6;
+			remoteGlobalIDString = 84597B191DBD488F00ED3E00;
 			remoteInfo = Esther_CalculatorApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8405FBBB1DBAE677004684B6 /* Esther_CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Esther_CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8405FBBE1DBAE677004684B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8405FBC01DBAE677004684B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8405FBC31DBAE677004684B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8405FBC51DBAE677004684B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8405FBC81DBAE677004684B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8405FBCA1DBAE677004684B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8405FBCF1DBAE677004684B6 /* Esther_CalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Esther_CalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8405FBD31DBAE677004684B6 /* Esther_CalculatorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esther_CalculatorAppTests.swift; sourceTree = "<group>"; };
-		8405FBD51DBAE677004684B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8405FBDA1DBAE677004684B6 /* Esther_CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Esther_CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8405FBDE1DBAE677004684B6 /* Esther_CalculatorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esther_CalculatorAppUITests.swift; sourceTree = "<group>"; };
-		8405FBE01DBAE677004684B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84597B1A1DBD488F00ED3E00 /* Esther_CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Esther_CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84597B1D1DBD488F00ED3E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84597B1F1DBD488F00ED3E00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84597B221DBD488F00ED3E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84597B241DBD489000ED3E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84597B271DBD489000ED3E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84597B291DBD489000ED3E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84597B2E1DBD489000ED3E00 /* Esther_CalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Esther_CalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84597B321DBD489000ED3E00 /* Esther_CalculatorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esther_CalculatorAppTests.swift; sourceTree = "<group>"; };
+		84597B341DBD489000ED3E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84597B391DBD489000ED3E00 /* Esther_CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Esther_CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84597B3D1DBD489000ED3E00 /* Esther_CalculatorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esther_CalculatorAppUITests.swift; sourceTree = "<group>"; };
+		84597B3F1DBD489000ED3E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84999B781DC00FDB000F2B98 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		84999B7A1DC00FEF000F2B98 /* number0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number0.png; sourceTree = "<group>"; };
+		84999B7B1DC00FEF000F2B98 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number1.png; sourceTree = "<group>"; };
+		84999B7C1DC00FEF000F2B98 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number2.png; sourceTree = "<group>"; };
+		84999B7D1DC00FEF000F2B98 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number3.png; sourceTree = "<group>"; };
+		84999B7E1DC00FEF000F2B98 /* number4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number4.png; sourceTree = "<group>"; };
+		84999B7F1DC00FEF000F2B98 /* number5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number5.png; sourceTree = "<group>"; };
+		84999B801DC00FEF000F2B98 /* number6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number6.png; sourceTree = "<group>"; };
+		84999B811DC00FEF000F2B98 /* number7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number7.png; sourceTree = "<group>"; };
+		84999B821DC00FEF000F2B98 /* number8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number8.png; sourceTree = "<group>"; };
+		84999B831DC00FEF000F2B98 /* number9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number9.png; sourceTree = "<group>"; };
+		84999B841DC00FEF000F2B98 /* plate_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate_white.png; sourceTree = "<group>"; };
+		84999B851DC00FEF000F2B98 /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
+		84999B861DC00FEF000F2B98 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = "<group>"; };
+		84999B871DC00FEF000F2B98 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_kids.png; sourceTree = "<group>"; };
+		84999B881DC00FEF000F2B98 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
+		84999B981DC01134000F2B98 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8405FBB81DBAE677004684B6 /* Frameworks */ = {
+		84597B171DBD488F00ED3E00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8405FBCC1DBAE677004684B6 /* Frameworks */ = {
+		84597B2B1DBD489000ED3E00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8405FBD71DBAE677004684B6 /* Frameworks */ = {
+		84597B361DBD489000ED3E00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +108,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8405FBB21DBAE677004684B6 = {
+		84597B111DBD488F00ED3E00 = {
 			isa = PBXGroup;
 			children = (
-				8405FBBD1DBAE677004684B6 /* Esther_CalculatorApp */,
-				8405FBD21DBAE677004684B6 /* Esther_CalculatorAppTests */,
-				8405FBDD1DBAE677004684B6 /* Esther_CalculatorAppUITests */,
-				8405FBBC1DBAE677004684B6 /* Products */,
+				84597B1C1DBD488F00ED3E00 /* Esther_CalculatorApp */,
+				84597B311DBD489000ED3E00 /* Esther_CalculatorAppTests */,
+				84597B3C1DBD489000ED3E00 /* Esther_CalculatorAppUITests */,
+				84597B1B1DBD488F00ED3E00 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8405FBBC1DBAE677004684B6 /* Products */ = {
+		84597B1B1DBD488F00ED3E00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8405FBBB1DBAE677004684B6 /* Esther_CalculatorApp.app */,
-				8405FBCF1DBAE677004684B6 /* Esther_CalculatorAppTests.xctest */,
-				8405FBDA1DBAE677004684B6 /* Esther_CalculatorAppUITests.xctest */,
+				84597B1A1DBD488F00ED3E00 /* Esther_CalculatorApp.app */,
+				84597B2E1DBD489000ED3E00 /* Esther_CalculatorAppTests.xctest */,
+				84597B391DBD489000ED3E00 /* Esther_CalculatorAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8405FBBD1DBAE677004684B6 /* Esther_CalculatorApp */ = {
+		84597B1C1DBD488F00ED3E00 /* Esther_CalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
-				8405FBBE1DBAE677004684B6 /* AppDelegate.swift */,
-				8405FBC01DBAE677004684B6 /* ViewController.swift */,
-				8405FBC21DBAE677004684B6 /* Main.storyboard */,
-				8405FBC51DBAE677004684B6 /* Assets.xcassets */,
-				8405FBC71DBAE677004684B6 /* LaunchScreen.storyboard */,
-				8405FBCA1DBAE677004684B6 /* Info.plist */,
+				84597B1D1DBD488F00ED3E00 /* AppDelegate.swift */,
+				84597B1F1DBD488F00ED3E00 /* ViewController.swift */,
+				84999B981DC01134000F2B98 /* DragView.swift */,
+				84597B211DBD488F00ED3E00 /* Main.storyboard */,
+				84597B241DBD489000ED3E00 /* Assets.xcassets */,
+				84999B7A1DC00FEF000F2B98 /* number0.png */,
+				84999B7B1DC00FEF000F2B98 /* number1.png */,
+				84999B7C1DC00FEF000F2B98 /* number2.png */,
+				84999B7D1DC00FEF000F2B98 /* number3.png */,
+				84999B7E1DC00FEF000F2B98 /* number4.png */,
+				84999B7F1DC00FEF000F2B98 /* number5.png */,
+				84999B801DC00FEF000F2B98 /* number6.png */,
+				84999B811DC00FEF000F2B98 /* number7.png */,
+				84999B821DC00FEF000F2B98 /* number8.png */,
+				84999B831DC00FEF000F2B98 /* number9.png */,
+				84999B841DC00FEF000F2B98 /* plate_white.png */,
+				84999B851DC00FEF000F2B98 /* plate.png */,
+				84999B861DC00FEF000F2B98 /* play_again.png */,
+				84999B871DC00FEF000F2B98 /* star_kids.png */,
+				84999B881DC00FEF000F2B98 /* thumbs_up.png */,
+				84999B781DC00FDB000F2B98 /* apple.png */,
+				84597B261DBD489000ED3E00 /* LaunchScreen.storyboard */,
+				84597B291DBD489000ED3E00 /* Info.plist */,
 			);
 			path = Esther_CalculatorApp;
 			sourceTree = "<group>";
 		};
-		8405FBD21DBAE677004684B6 /* Esther_CalculatorAppTests */ = {
+		84597B311DBD489000ED3E00 /* Esther_CalculatorAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				8405FBD31DBAE677004684B6 /* Esther_CalculatorAppTests.swift */,
-				8405FBD51DBAE677004684B6 /* Info.plist */,
+				84597B321DBD489000ED3E00 /* Esther_CalculatorAppTests.swift */,
+				84597B341DBD489000ED3E00 /* Info.plist */,
 			);
 			path = Esther_CalculatorAppTests;
 			sourceTree = "<group>";
 		};
-		8405FBDD1DBAE677004684B6 /* Esther_CalculatorAppUITests */ = {
+		84597B3C1DBD489000ED3E00 /* Esther_CalculatorAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8405FBDE1DBAE677004684B6 /* Esther_CalculatorAppUITests.swift */,
-				8405FBE01DBAE677004684B6 /* Info.plist */,
+				84597B3D1DBD489000ED3E00 /* Esther_CalculatorAppUITests.swift */,
+				84597B3F1DBD489000ED3E00 /* Info.plist */,
 			);
 			path = Esther_CalculatorAppUITests;
 			sourceTree = "<group>";
@@ -128,13 +179,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8405FBBA1DBAE677004684B6 /* Esther_CalculatorApp */ = {
+		84597B191DBD488F00ED3E00 /* Esther_CalculatorApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8405FBE31DBAE677004684B6 /* Build configuration list for PBXNativeTarget "Esther_CalculatorApp" */;
+			buildConfigurationList = 84597B421DBD489000ED3E00 /* Build configuration list for PBXNativeTarget "Esther_CalculatorApp" */;
 			buildPhases = (
-				8405FBB71DBAE677004684B6 /* Sources */,
-				8405FBB81DBAE677004684B6 /* Frameworks */,
-				8405FBB91DBAE677004684B6 /* Resources */,
+				84597B161DBD488F00ED3E00 /* Sources */,
+				84597B171DBD488F00ED3E00 /* Frameworks */,
+				84597B181DBD488F00ED3E00 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,72 +193,73 @@
 			);
 			name = Esther_CalculatorApp;
 			productName = Esther_CalculatorApp;
-			productReference = 8405FBBB1DBAE677004684B6 /* Esther_CalculatorApp.app */;
+			productReference = 84597B1A1DBD488F00ED3E00 /* Esther_CalculatorApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8405FBCE1DBAE677004684B6 /* Esther_CalculatorAppTests */ = {
+		84597B2D1DBD489000ED3E00 /* Esther_CalculatorAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8405FBE61DBAE677004684B6 /* Build configuration list for PBXNativeTarget "Esther_CalculatorAppTests" */;
+			buildConfigurationList = 84597B451DBD489000ED3E00 /* Build configuration list for PBXNativeTarget "Esther_CalculatorAppTests" */;
 			buildPhases = (
-				8405FBCB1DBAE677004684B6 /* Sources */,
-				8405FBCC1DBAE677004684B6 /* Frameworks */,
-				8405FBCD1DBAE677004684B6 /* Resources */,
+				84597B2A1DBD489000ED3E00 /* Sources */,
+				84597B2B1DBD489000ED3E00 /* Frameworks */,
+				84597B2C1DBD489000ED3E00 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8405FBD11DBAE677004684B6 /* PBXTargetDependency */,
+				84597B301DBD489000ED3E00 /* PBXTargetDependency */,
 			);
 			name = Esther_CalculatorAppTests;
 			productName = Esther_CalculatorAppTests;
-			productReference = 8405FBCF1DBAE677004684B6 /* Esther_CalculatorAppTests.xctest */;
+			productReference = 84597B2E1DBD489000ED3E00 /* Esther_CalculatorAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8405FBD91DBAE677004684B6 /* Esther_CalculatorAppUITests */ = {
+		84597B381DBD489000ED3E00 /* Esther_CalculatorAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8405FBE91DBAE677004684B6 /* Build configuration list for PBXNativeTarget "Esther_CalculatorAppUITests" */;
+			buildConfigurationList = 84597B481DBD489000ED3E00 /* Build configuration list for PBXNativeTarget "Esther_CalculatorAppUITests" */;
 			buildPhases = (
-				8405FBD61DBAE677004684B6 /* Sources */,
-				8405FBD71DBAE677004684B6 /* Frameworks */,
-				8405FBD81DBAE677004684B6 /* Resources */,
+				84597B351DBD489000ED3E00 /* Sources */,
+				84597B361DBD489000ED3E00 /* Frameworks */,
+				84597B371DBD489000ED3E00 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8405FBDC1DBAE677004684B6 /* PBXTargetDependency */,
+				84597B3B1DBD489000ED3E00 /* PBXTargetDependency */,
 			);
 			name = Esther_CalculatorAppUITests;
 			productName = Esther_CalculatorAppUITests;
-			productReference = 8405FBDA1DBAE677004684B6 /* Esther_CalculatorAppUITests.xctest */;
+			productReference = 84597B391DBD489000ED3E00 /* Esther_CalculatorAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8405FBB31DBAE677004684B6 /* Project object */ = {
+		84597B121DBD488F00ED3E00 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Esther King";
 				TargetAttributes = {
-					8405FBBA1DBAE677004684B6 = {
+					84597B191DBD488F00ED3E00 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BV56ZN48NP;
 						ProvisioningStyle = Automatic;
 					};
-					8405FBCE1DBAE677004684B6 = {
+					84597B2D1DBD489000ED3E00 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 8405FBBA1DBAE677004684B6;
+						TestTargetID = 84597B191DBD488F00ED3E00;
 					};
-					8405FBD91DBAE677004684B6 = {
+					84597B381DBD489000ED3E00 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 8405FBBA1DBAE677004684B6;
+						TestTargetID = 84597B191DBD488F00ED3E00;
 					};
 				};
 			};
-			buildConfigurationList = 8405FBB61DBAE677004684B6 /* Build configuration list for PBXProject "Esther_CalculatorApp" */;
+			buildConfigurationList = 84597B151DBD488F00ED3E00 /* Build configuration list for PBXProject "Esther_CalculatorApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,37 +267,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 8405FBB21DBAE677004684B6;
-			productRefGroup = 8405FBBC1DBAE677004684B6 /* Products */;
+			mainGroup = 84597B111DBD488F00ED3E00;
+			productRefGroup = 84597B1B1DBD488F00ED3E00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8405FBBA1DBAE677004684B6 /* Esther_CalculatorApp */,
-				8405FBCE1DBAE677004684B6 /* Esther_CalculatorAppTests */,
-				8405FBD91DBAE677004684B6 /* Esther_CalculatorAppUITests */,
+				84597B191DBD488F00ED3E00 /* Esther_CalculatorApp */,
+				84597B2D1DBD489000ED3E00 /* Esther_CalculatorAppTests */,
+				84597B381DBD489000ED3E00 /* Esther_CalculatorAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8405FBB91DBAE677004684B6 /* Resources */ = {
+		84597B181DBD488F00ED3E00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8405FBC91DBAE677004684B6 /* LaunchScreen.storyboard in Resources */,
-				8405FBC61DBAE677004684B6 /* Assets.xcassets in Resources */,
-				8405FBC41DBAE677004684B6 /* Main.storyboard in Resources */,
+				84597B281DBD489000ED3E00 /* LaunchScreen.storyboard in Resources */,
+				84999B911DC00FEF000F2B98 /* number8.png in Resources */,
+				84999B941DC00FEF000F2B98 /* plate.png in Resources */,
+				84597B251DBD489000ED3E00 /* Assets.xcassets in Resources */,
+				84999B901DC00FEF000F2B98 /* number7.png in Resources */,
+				84999B8E1DC00FEF000F2B98 /* number5.png in Resources */,
+				84999B8C1DC00FEF000F2B98 /* number3.png in Resources */,
+				84999B931DC00FEF000F2B98 /* plate_white.png in Resources */,
+				84999B8A1DC00FEF000F2B98 /* number1.png in Resources */,
+				84999B891DC00FEF000F2B98 /* number0.png in Resources */,
+				84999B8D1DC00FEF000F2B98 /* number4.png in Resources */,
+				84999B791DC00FDB000F2B98 /* apple.png in Resources */,
+				84999B8B1DC00FEF000F2B98 /* number2.png in Resources */,
+				84597B231DBD488F00ED3E00 /* Main.storyboard in Resources */,
+				84999B921DC00FEF000F2B98 /* number9.png in Resources */,
+				84999B971DC00FEF000F2B98 /* thumbs_up.png in Resources */,
+				84999B8F1DC00FEF000F2B98 /* number6.png in Resources */,
+				84999B961DC00FEF000F2B98 /* star_kids.png in Resources */,
+				84999B951DC00FEF000F2B98 /* play_again.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8405FBCD1DBAE677004684B6 /* Resources */ = {
+		84597B2C1DBD489000ED3E00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8405FBD81DBAE677004684B6 /* Resources */ = {
+		84597B371DBD489000ED3E00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,59 +323,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8405FBB71DBAE677004684B6 /* Sources */ = {
+		84597B161DBD488F00ED3E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8405FBC11DBAE677004684B6 /* ViewController.swift in Sources */,
-				8405FBBF1DBAE677004684B6 /* AppDelegate.swift in Sources */,
+				84597B201DBD488F00ED3E00 /* ViewController.swift in Sources */,
+				84597B1E1DBD488F00ED3E00 /* AppDelegate.swift in Sources */,
+				84999B991DC01134000F2B98 /* DragView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8405FBCB1DBAE677004684B6 /* Sources */ = {
+		84597B2A1DBD489000ED3E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8405FBD41DBAE677004684B6 /* Esther_CalculatorAppTests.swift in Sources */,
+				84597B331DBD489000ED3E00 /* Esther_CalculatorAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8405FBD61DBAE677004684B6 /* Sources */ = {
+		84597B351DBD489000ED3E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8405FBDF1DBAE677004684B6 /* Esther_CalculatorAppUITests.swift in Sources */,
+				84597B3E1DBD489000ED3E00 /* Esther_CalculatorAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8405FBD11DBAE677004684B6 /* PBXTargetDependency */ = {
+		84597B301DBD489000ED3E00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8405FBBA1DBAE677004684B6 /* Esther_CalculatorApp */;
-			targetProxy = 8405FBD01DBAE677004684B6 /* PBXContainerItemProxy */;
+			target = 84597B191DBD488F00ED3E00 /* Esther_CalculatorApp */;
+			targetProxy = 84597B2F1DBD489000ED3E00 /* PBXContainerItemProxy */;
 		};
-		8405FBDC1DBAE677004684B6 /* PBXTargetDependency */ = {
+		84597B3B1DBD489000ED3E00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8405FBBA1DBAE677004684B6 /* Esther_CalculatorApp */;
-			targetProxy = 8405FBDB1DBAE677004684B6 /* PBXContainerItemProxy */;
+			target = 84597B191DBD488F00ED3E00 /* Esther_CalculatorApp */;
+			targetProxy = 84597B3A1DBD489000ED3E00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8405FBC21DBAE677004684B6 /* Main.storyboard */ = {
+		84597B211DBD488F00ED3E00 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8405FBC31DBAE677004684B6 /* Base */,
+				84597B221DBD488F00ED3E00 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8405FBC71DBAE677004684B6 /* LaunchScreen.storyboard */ = {
+		84597B261DBD489000ED3E00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8405FBC81DBAE677004684B6 /* Base */,
+				84597B271DBD489000ED3E00 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +384,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8405FBE11DBAE677004684B6 /* Debug */ = {
+		84597B401DBD489000ED3E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -364,7 +433,7 @@
 			};
 			name = Debug;
 		};
-		8405FBE21DBAE677004684B6 /* Release */ = {
+		84597B411DBD489000ED3E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,31 +475,37 @@
 			};
 			name = Release;
 		};
-		8405FBE41DBAE677004684B6 /* Debug */ = {
+		84597B431DBD489000ED3E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BV56ZN48NP;
 				INFOPLIST_FILE = Esther_CalculatorApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Queen.Esther-CalculatorApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8405FBE51DBAE677004684B6 /* Release */ = {
+		84597B441DBD489000ED3E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BV56ZN48NP;
 				INFOPLIST_FILE = Esther_CalculatorApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Queen.Esther-CalculatorApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		8405FBE71DBAE677004684B6 /* Debug */ = {
+		84597B461DBD489000ED3E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -444,7 +519,7 @@
 			};
 			name = Debug;
 		};
-		8405FBE81DBAE677004684B6 /* Release */ = {
+		84597B471DBD489000ED3E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -458,7 +533,7 @@
 			};
 			name = Release;
 		};
-		8405FBEA1DBAE677004684B6 /* Debug */ = {
+		84597B491DBD489000ED3E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -471,7 +546,7 @@
 			};
 			name = Debug;
 		};
-		8405FBEB1DBAE677004684B6 /* Release */ = {
+		84597B4A1DBD489000ED3E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -487,40 +562,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8405FBB61DBAE677004684B6 /* Build configuration list for PBXProject "Esther_CalculatorApp" */ = {
+		84597B151DBD488F00ED3E00 /* Build configuration list for PBXProject "Esther_CalculatorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8405FBE11DBAE677004684B6 /* Debug */,
-				8405FBE21DBAE677004684B6 /* Release */,
+				84597B401DBD489000ED3E00 /* Debug */,
+				84597B411DBD489000ED3E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8405FBE31DBAE677004684B6 /* Build configuration list for PBXNativeTarget "Esther_CalculatorApp" */ = {
+		84597B421DBD489000ED3E00 /* Build configuration list for PBXNativeTarget "Esther_CalculatorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8405FBE41DBAE677004684B6 /* Debug */,
-				8405FBE51DBAE677004684B6 /* Release */,
+				84597B431DBD489000ED3E00 /* Debug */,
+				84597B441DBD489000ED3E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8405FBE61DBAE677004684B6 /* Build configuration list for PBXNativeTarget "Esther_CalculatorAppTests" */ = {
+		84597B451DBD489000ED3E00 /* Build configuration list for PBXNativeTarget "Esther_CalculatorAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8405FBE71DBAE677004684B6 /* Debug */,
-				8405FBE81DBAE677004684B6 /* Release */,
+				84597B461DBD489000ED3E00 /* Debug */,
+				84597B471DBD489000ED3E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8405FBE91DBAE677004684B6 /* Build configuration list for PBXNativeTarget "Esther_CalculatorAppUITests" */ = {
+		84597B481DBD489000ED3E00 /* Build configuration list for PBXNativeTarget "Esther_CalculatorAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8405FBEA1DBAE677004684B6 /* Debug */,
-				8405FBEB1DBAE677004684B6 /* Release */,
+				84597B491DBD489000ED3E00 /* Debug */,
+				84597B4A1DBD489000ED3E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8405FBB31DBAE677004684B6 /* Project object */;
+	rootObject = 84597B121DBD488F00ED3E00 /* Project object */;
 }
