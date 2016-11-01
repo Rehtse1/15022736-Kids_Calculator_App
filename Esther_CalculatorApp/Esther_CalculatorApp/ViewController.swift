@@ -9,10 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    let topView = UIView()
     @IBOutlet weak var numberView1: UILabel!
     @IBOutlet weak var numberView2: UILabel!
     @IBOutlet weak var answerView: UILabel!
+    
+    @IBOutlet weak var numberView3: UILabel!
+    @IBOutlet weak var numberView4: UILabel!
+    @IBOutlet weak var answerView1: UILabel!
     
     @IBOutlet weak var resultsView: UIView!
     
@@ -23,9 +27,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad()
     {
-        super.viewDidLoad()
+        //super.viewDidLoad()
         
-        
+        view.addSubview(topView)
         
         numberView1.text = String(MyVariables.number1)
         numberView2.text = String(MyVariables.number2)
@@ -46,6 +50,9 @@ class ViewController: UIViewController {
         if (answer == 0)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "0"
         }else{
             answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
@@ -58,6 +65,9 @@ class ViewController: UIViewController {
         if (answer == 1)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "1"
         }else{
             answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
@@ -70,10 +80,20 @@ class ViewController: UIViewController {
         if (answer == 2)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "2"
         }else{
-            answerView.textColor = UIColor.red
-            //answerView.textColor = UIColor.black
+          
+                            //answerView.textColor = UIColor.black
+            UIView.animate(withDuration: 1.0, animations: {
+                self.answerView.textColor = UIColor.red
+                
+                //textColor = UIColor.red
+            })
+          //answerView.textColor = UIColor.black
         }
+        
     }
     
     @IBAction func buttonView3(_ sender: UIButton) {
@@ -82,6 +102,9 @@ class ViewController: UIViewController {
         if (answer == 3)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "3"
         }else{
             answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
@@ -93,6 +116,9 @@ class ViewController: UIViewController {
         if (answer == 4)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "4"
         }else{
             answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
@@ -105,6 +131,9 @@ class ViewController: UIViewController {
         if (answer == 5)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "5"
         }else{
             answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
@@ -117,6 +146,9 @@ class ViewController: UIViewController {
         if (answer == 6)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "6"
         }else{
             answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
@@ -129,6 +161,9 @@ class ViewController: UIViewController {
         if (answer == 7)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "7"
         }else{
             answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
@@ -141,6 +176,9 @@ class ViewController: UIViewController {
         if (answer == 8)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "8"
         }else{
             answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
@@ -153,11 +191,26 @@ class ViewController: UIViewController {
         if (answer == 9)
         {
             self.resultsView.isHidden = false
+            numberView3.text = String(MyVariables.number1)
+            numberView4.text = String(MyVariables.number2)
+            answerView1.text = "9"
         }else{
             answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
         }
     }
+    
+    @IBAction func playButtonView(_ sender: UIButton) {
+         //self.resultsView.isHidden = true
+       
+        self.view.setNeedsDisplay()
+        self.viewDidLoad()
+        self.viewWillAppear(true)
+        
+        
+      
+    }
+    
 }
 
 
