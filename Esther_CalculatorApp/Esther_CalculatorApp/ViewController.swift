@@ -20,9 +20,17 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultsView: UIView!
     
+    @IBOutlet weak var starView1: UIImageView!
+    @IBOutlet weak var starView2: UIImageView!
+    @IBOutlet weak var starView3: UIImageView!
+    @IBOutlet weak var starView4: UIImageView!
+
+    @IBOutlet weak var starView5: UIImageView!
+    
     struct MyVariables {
         static var number1 = Int(arc4random_uniform(5))
         static var number2 = Int(arc4random_uniform(5))
+        
     }
     
     override func viewDidLoad()
@@ -50,8 +58,11 @@ class ViewController: UIViewController {
         if (answer == 0)
         {
             self.resultsView.isHidden = false
-            numberView3.text = String(MyVariables.number1)
-            numberView4.text = String(MyVariables.number2)
+           // numberView3.text = String(MyVariables.number1)
+            numberView3.text = String(describing: numberView1)
+            numberView4.text = String(describing: numberView2)
+            
+            //numberView4.text = String(MyVariables.number2)
             answerView1.text = "0"
         }else{
             answerView.textColor = UIColor.red
@@ -65,8 +76,11 @@ class ViewController: UIViewController {
         if (answer == 1)
         {
             self.resultsView.isHidden = false
-            numberView3.text = String(MyVariables.number1)
-            numberView4.text = String(MyVariables.number2)
+            //numberView3.text = String(MyVariables.number1)
+            //numberView4.text = String(MyVariables.number2)
+            numberView3.text = String(describing: numberView1)
+            numberView4.text = String(describing: numberView2)
+            
             answerView1.text = "1"
         }else{
             answerView.textColor = UIColor.red
@@ -80,18 +94,28 @@ class ViewController: UIViewController {
         if (answer == 2)
         {
             self.resultsView.isHidden = false
-            numberView3.text = String(MyVariables.number1)
-            numberView4.text = String(MyVariables.number2)
+           // numberView3.text = String(MyVariables.number1)
+            //numberView4.text = String(MyVariables.number2)
+            numberView3.text = String(describing: numberView1)
+            numberView4.text = String(describing: numberView2)
+            
             answerView1.text = "2"
         }else{
           
-                            //answerView.textColor = UIColor.black
-            UIView.animate(withDuration: 1.0, animations: {
-                self.answerView.textColor = UIColor.red
+            //answerView.textColor = UIColor.black
+           // UIView.animate(withDuration: 1.0, animations: {
+              //  self.answerView.textColor = UIColor.red
                 
-                //textColor = UIColor.red
-            })
-          //answerView.textColor = UIColor.black
+                
+            //textColor = UIColor.red
+          //  })
+            
+            UIView.animate(withDuration: 0.5, delay: 0.4,
+                                       options: [], animations: {
+                                        self.answerView.textColor = UIColor.red
+
+                }, completion: nil)
+            //answerView.textColor = UIColor.black
         }
         
     }
@@ -106,7 +130,13 @@ class ViewController: UIViewController {
             numberView4.text = String(MyVariables.number2)
             answerView1.text = "3"
         }else{
-            answerView.textColor = UIColor.red
+            
+            UIView.animate(withDuration: 0.5, delay: 0.4,
+                           options: [], animations: {
+                            self.answerView.textColor = UIColor.red
+                            
+                }, completion: nil)
+            //answerView.textColor = UIColor.red
             //answerView.textColor = UIColor.black
         }
     }
@@ -203,9 +233,19 @@ class ViewController: UIViewController {
     @IBAction func playButtonView(_ sender: UIButton) {
          //self.resultsView.isHidden = true
        
+       //displayText.text = "Hello " + nameText.text! + "!"
+        let number3 = Int(arc4random_uniform(5))
+        let number4 = Int(arc4random_uniform(5))
+        
         self.view.setNeedsDisplay()
         self.viewDidLoad()
         self.viewWillAppear(true)
+        
+        numberView1.text = String(number3)
+        numberView2.text = String(number4)
+        
+       
+        
         
         
       

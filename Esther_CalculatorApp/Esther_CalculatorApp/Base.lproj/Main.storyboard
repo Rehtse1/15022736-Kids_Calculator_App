@@ -185,23 +185,23 @@
                                             <action selector="playButtonView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lx7-kO-mVf"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="U6a-Dq-QXH">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="U6a-Dq-QXH" userLabel="star_kids.png1">
                                         <frame key="frameInset" minX="25" minY="39" width="106" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="nJm-fs-QKw">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="nJm-fs-QKw" userLabel="star_kids.png2">
                                         <frame key="frameInset" minX="243" minY="85" width="106" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hu5-VH-QAq">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hu5-VH-QAq" userLabel="star_kids.png3">
                                         <frame key="frameInset" minX="53" minY="459" width="106" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="gLu-qY-TyT">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="gLu-qY-TyT" userLabel="star_kids.png4">
                                         <frame key="frameInset" minX="291" minY="521" width="106" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="NJc-BT-91p">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="NJc-BT-91p" userLabel="star_kids.png5">
                                         <frame key="frameInset" minX="203" minY="626" width="73" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -224,7 +224,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxf-Ab-TLU" userLabel="Number View4">
-                                        <frame key="frameInset" minX="195" minY="200" width="24" height="60"/>
+                                        <frame key="frameInset" minX="193" minY="201" width="27" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                         <nil key="textColor"/>
@@ -258,6 +258,11 @@
                         <outlet property="numberView3" destination="8Tc-Yg-lqA" id="1Pn-Zv-Klv"/>
                         <outlet property="numberView4" destination="rxf-Ab-TLU" id="glf-eH-UuV"/>
                         <outlet property="resultsView" destination="k3X-Rb-72M" id="V83-nF-Pag"/>
+                        <outlet property="starView1" destination="U6a-Dq-QXH" id="cXQ-oB-jY8"/>
+                        <outlet property="starView2" destination="nJm-fs-QKw" id="skj-5q-QVc"/>
+                        <outlet property="starView3" destination="Hu5-VH-QAq" id="Oam-Su-soO"/>
+                        <outlet property="starView4" destination="NJc-BT-91p" id="bcQ-dM-PEi"/>
+                        <outlet property="starView5" destination="gLu-qY-TyT" id="qXL-lR-GCe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -31,6 +31,7 @@
 		84999B961DC00FEF000F2B98 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B871DC00FEF000F2B98 /* star_kids.png */; };
 		84999B971DC00FEF000F2B98 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B881DC00FEF000F2B98 /* thumbs_up.png */; };
 		84999B991DC01134000F2B98 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84999B981DC01134000F2B98 /* DragView.swift */; };
+		84B117201DCA84E600B37C16 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 84B1171F1DCA84E600B37C16 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		84999B871DC00FEF000F2B98 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_kids.png; sourceTree = "<group>"; };
 		84999B881DC00FEF000F2B98 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
 		84999B981DC01134000F2B98 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		84B1171F1DCA84E600B37C16 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				84597B1F1DBD488F00ED3E00 /* ViewController.swift */,
 				84999B981DC01134000F2B98 /* DragView.swift */,
 				84597B211DBD488F00ED3E00 /* Main.storyboard */,
+				84B1171F1DCA84E600B37C16 /* Podfile */,
 				84597B241DBD489000ED3E00 /* Assets.xcassets */,
 				84999B7A1DC00FEF000F2B98 /* number0.png */,
 				84999B7B1DC00FEF000F2B98 /* number1.png */,
@@ -294,6 +297,7 @@
 				84999B931DC00FEF000F2B98 /* plate_white.png in Resources */,
 				84999B8A1DC00FEF000F2B98 /* number1.png in Resources */,
 				84999B891DC00FEF000F2B98 /* number0.png in Resources */,
+				84B117201DCA84E600B37C16 /* Podfile in Resources */,
 				84999B8D1DC00FEF000F2B98 /* number4.png in Resources */,
 				84999B791DC00FDB000F2B98 /* apple.png in Resources */,
 				84999B8B1DC00FEF000F2B98 /* number2.png in Resources */,
