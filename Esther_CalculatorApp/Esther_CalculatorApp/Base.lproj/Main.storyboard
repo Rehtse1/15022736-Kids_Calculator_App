@@ -185,10 +185,6 @@
                                         <frame key="frameInset" minX="25" minY="39" width="106" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="nJm-fs-QKw" userLabel="star_kids.png2">
-                                        <frame key="frameInset" minX="243" minY="85" width="106" height="84"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hu5-VH-QAq" userLabel="star_kids.png3">
                                         <frame key="frameInset" minX="53" minY="459" width="106" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -240,6 +236,10 @@
                                         <frame key="frameInset" minX="243" minY="459" width="106" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="nJm-fs-QKw" userLabel="star_kids.png2">
+                                        <frame key="frameInset" minX="179" minY="66" width="106" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -267,8 +267,8 @@
                         <outlet property="numberView3" destination="8Tc-Yg-lqA" id="1Pn-Zv-Klv"/>
                         <outlet property="numberView4" destination="rxf-Ab-TLU" id="glf-eH-UuV"/>
                         <outlet property="resultsView" destination="k3X-Rb-72M" id="V83-nF-Pag"/>
-                        <outlet property="starView1" destination="U6a-Dq-QXH" id="cXQ-oB-jY8"/>
-                        <outlet property="starView2" destination="nJm-fs-QKw" id="skj-5q-QVc"/>
+                        <outlet property="starView1" destination="U6a-Dq-QXH" id="Rhl-3F-7z1"/>
+                        <outlet property="starView2" destination="nJm-fs-QKw" id="cfq-NH-6gh"/>
                         <outlet property="starView3" destination="Hu5-VH-QAq" id="Oam-Su-soO"/>
                         <outlet property="starView4" destination="NJc-BT-91p" id="bcQ-dM-PEi"/>
                         <outlet property="starView5" destination="gLu-qY-TyT" id="qXL-lR-GCe"/>
