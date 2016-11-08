@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var starView2: UIImageView!
     @IBOutlet weak var starView3: UIImageView!
     @IBOutlet weak var starView4: UIImageView!
-
     @IBOutlet weak var starView5: UIImageView!
     
     var number1 = Int(arc4random_uniform(5))
@@ -78,6 +77,15 @@ class ViewController: UIViewController {
             })
         }else{
             answerView.textColor = UIColor.red
+            UIView.animate(withDuration: 0.5, delay: 0.4,
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
+                            
+                            
+                }, completion: {
+                    (value: Bool) in
+                    self.answerView.alpha = 0.0
+            })
         }
     }
     
@@ -109,12 +117,15 @@ class ViewController: UIViewController {
 
             
         }else{
-            //answerView.textColor = UIColor.red
-            UIView.animate(withDuration: 0.5, delay: 0.4, animations: {
-                self.answerView.textColor = UIColor.red
+            answerView.textColor = UIColor.red
+            UIView.animate(withDuration: 0.5, delay: 0.4,
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
+                            
+                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.textColor = UIColor.black
+                    self.answerView.alpha = 0.0
             })
         }
  }
@@ -146,17 +157,18 @@ class ViewController: UIViewController {
                     self.starView5.alpha = 0.1
             })
                    }else{
+            answerView.textColor = UIColor.red
             
             UIView.animate(withDuration: 0.5, delay: 0.4,
                                        options: [.repeat], animations: {
-                                        self.answerView.alpha = 0.0
+                                        self.answerView.alpha = 0.1
+                                        
 
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.1
+                    self.answerView.alpha = 0.0
             })
 
-            //answerView.textColor = UIColor.black
         }
         
     }
@@ -379,7 +391,11 @@ class ViewController: UIViewController {
             number1 = Int(arc4random_uniform(5))
             number2 = Int(arc4random_uniform(5))
             answer = number1 + number2
-
+            self.answerView.alpha = 1
+        answerView.textColor = UIColor.black
+        
+        
+        
         view.setNeedsDisplay()
         self.viewDidLoad()
         self.viewWillAppear(true)
