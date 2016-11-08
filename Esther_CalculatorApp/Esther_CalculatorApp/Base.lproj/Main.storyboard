@@ -15,7 +15,7 @@
                         <viewControllerLayoutGuide type="bottom" id="nSi-Gu-ADv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KGw-R2-X8J">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZ3-Qq-gwH" userLabel="Button0">
@@ -115,11 +115,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="KJT-h8-VOw" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
-                                <frame key="frameInset" minX="278" minY="591" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="U1a-Pc-Yxi" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
-                                <frame key="frameInset" minX="218" minY="606" width="60" height="60"/>
+                                <frame key="frameInset" minX="322" minY="563" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="wuR-bV-fAc" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
@@ -131,7 +127,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="xUI-Jm-Ivz" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
-                                <frame key="frameInset" minX="255" minY="599" width="60" height="60"/>
+                                <frame key="frameInset" minX="322" minY="676" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wtp-yL-TBQ" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
@@ -247,6 +243,10 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="U1a-Pc-Yxi" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
+                                <frame key="frameInset" minX="203" minY="659" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -255,6 +255,13 @@
                         <outlet property="answerView1" destination="g8y-xh-xfI" id="PNt-ig-0Wq"/>
                         <outlet property="apple1" destination="pFx-yV-oJy" id="4DU-Mj-U3f"/>
                         <outlet property="apple2" destination="Wtp-yL-TBQ" id="bAQ-Gt-b17"/>
+                        <outlet property="apple3" destination="jBK-Q8-YWS" id="kjI-yy-XNs"/>
+                        <outlet property="apple4" destination="wuR-bV-fAc" id="JDD-GM-IlA"/>
+                        <outlet property="apple5" destination="Nof-f2-bfH" id="hak-4Y-r3k"/>
+                        <outlet property="apple6" destination="U1a-Pc-Yxi" id="fq7-DY-fai"/>
+                        <outlet property="apple7" destination="xUI-Jm-Ivz" id="Kk6-83-msh"/>
+                        <outlet property="apple8" destination="KJT-h8-VOw" id="Iwt-hC-Nif"/>
+                        <outlet property="apple9" destination="NCP-2m-tHC" id="NDR-wf-qrS"/>
                         <outlet property="numberView1" destination="s3A-Cw-Cdz" id="lkh-9y-M6k"/>
                         <outlet property="numberView2" destination="9cT-BB-f5H" id="vEU-Jd-kbX"/>
                         <outlet property="numberView3" destination="8Tc-Yg-lqA" id="1Pn-Zv-Klv"/>

@@ -227,11 +227,26 @@ class ViewController: UIViewController {
         numberView1.text = String(number1)
         numberView2.text = String(number2)
         apple1.center = CGPoint(x:120, y:630)
-        apple2.center = CGPoint(x:150, y:638)
+        apple2.center = CGPoint(x:163, y:638)
+        apple3.center = CGPoint(x:160, y:620)
+        apple4.center = CGPoint(x:205, y:638)
+        apple5.center = CGPoint(x:205, y:620)
+        apple6.center = CGPoint(x:250, y:638)
+        apple7.center = CGPoint(x:290, y:630)
+        apple8.center = CGPoint(x:305, y:620)
+        apple9.center = CGPoint(x:250, y:620)
     }
     @IBOutlet weak var apple1: DragView!
-    
     @IBOutlet weak var apple2: DragView!
+    @IBOutlet weak var apple3: DragView!
+    @IBOutlet weak var apple4: DragView!
+    @IBOutlet weak var apple5: DragView!
+    @IBOutlet weak var apple6: DragView!
+    @IBOutlet weak var apple7: DragView!
+    @IBOutlet weak var apple8: DragView!
+    @IBOutlet weak var apple9: DragView!
+    
+    
 }
 
 
