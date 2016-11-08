@@ -9,13 +9,13 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Esther_CalculatorApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="myView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Esther_CalculatorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bfq-hd-5vk"/>
                         <viewControllerLayoutGuide type="bottom" id="nSi-Gu-ADv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KGw-R2-X8J">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZ3-Qq-gwH" userLabel="Button0">
@@ -102,7 +102,7 @@
                                 <frame key="frameInset" minX="53" minY="545" width="309" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBK-Q8-YWS" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="myView" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBK-Q8-YWS" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
                                 <frame key="frameInset" minX="125" minY="591" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -122,10 +122,6 @@
                                 <frame key="frameInset" minX="218" minY="606" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wtp-yL-TBQ" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
-                                <frame key="frameInset" minX="137" minY="606" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="wuR-bV-fAc" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
                                 <frame key="frameInset" minX="177" minY="606" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -136,6 +132,10 @@
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="xUI-Jm-Ivz" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
                                 <frame key="frameInset" minX="255" minY="599" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wtp-yL-TBQ" customClass="DragView" customModule="Esther_CalculatorApp" customModuleProvider="target">
+                                <frame key="frameInset" minX="135" minY="607" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3A-Cw-Cdz">
@@ -174,7 +174,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3X-Rb-72M">
-                                <frame key="frameInset" width="414" height="736"/>
+                                <frame key="frameInset" minX="1" width="374" height="409"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xx9-L4-3d2">
@@ -197,12 +197,8 @@
                                         <frame key="frameInset" minX="53" minY="459" width="106" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="gLu-qY-TyT" userLabel="star_kids.png4">
-                                        <frame key="frameInset" minX="291" minY="521" width="106" height="84"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="NJc-BT-91p" userLabel="star_kids.png5">
-                                        <frame key="frameInset" minX="203" minY="626" width="73" height="62"/>
+                                        <frame key="frameInset" minX="193" minY="582" width="73" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumbs_up.png" translatesAutoresizingMaskIntoConstraints="NO" id="f4k-b1-jjg">
@@ -210,7 +206,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Tc-Yg-lqA" userLabel="Number View3">
-                                        <frame key="frameInset" minX="36" minY="200" width="123" height="60"/>
+                                        <frame key="frameInset" minX="36" minY="200" width="31" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                         <nil key="textColor"/>
@@ -231,19 +227,23 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rhs-Ho-Nxq">
-                                        <frame key="frameInset" minX="274" minY="200" width="32" height="60"/>
+                                        <frame key="frameInset" minX="253" minY="200" width="32" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8y-xh-xfI" userLabel="Answer View1">
-                                        <frame key="frameInset" minX="344" minY="200" width="32" height="60"/>
+                                        <frame key="frameInset" minX="323" minY="200" width="32" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="gLu-qY-TyT" userLabel="star_kids.png4">
+                                        <frame key="frameInset" minX="243" minY="459" width="106" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -253,6 +253,8 @@
                     <connections>
                         <outlet property="answerView" destination="tqC-Ck-hCG" id="8oq-4g-0oy"/>
                         <outlet property="answerView1" destination="g8y-xh-xfI" id="PNt-ig-0Wq"/>
+                        <outlet property="apple1" destination="pFx-yV-oJy" id="4DU-Mj-U3f"/>
+                        <outlet property="apple2" destination="Wtp-yL-TBQ" id="bAQ-Gt-b17"/>
                         <outlet property="numberView1" destination="s3A-Cw-Cdz" id="lkh-9y-M6k"/>
                         <outlet property="numberView2" destination="9cT-BB-f5H" id="vEU-Jd-kbX"/>
                         <outlet property="numberView3" destination="8Tc-Yg-lqA" id="1Pn-Zv-Klv"/>
@@ -267,7 +269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="562.31884057971024" y="-1005.9782608695652"/>
+            <point key="canvasLocation" x="516" y="-1086.2068965517242"/>
         </scene>
     </scenes>
     <resources>
