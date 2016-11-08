@@ -67,17 +67,10 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
+                }, completion: nil)
         }else{
             answerView.textColor = UIColor.red
-            UIView.animate(withDuration: 0.5, delay: 0.4,
+            UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
                             
@@ -106,19 +99,12 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
-
+                }, completion: nil)
             
         }else{
             answerView.textColor = UIColor.red
-            UIView.animate(withDuration: 0.5, delay: 0.4,
+            
+            UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
                             
@@ -148,18 +134,11 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
-                   }else{
+                }, completion: nil)
+        }else{
             answerView.textColor = UIColor.red
             
-            UIView.animate(withDuration: 0.5, delay: 0.4,
+            UIView.animate(withDuration: 0.5, delay: 0.0,
                                        options: [.repeat], animations: {
                                         self.answerView.alpha = 0.1
                                         
@@ -189,17 +168,19 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
-
+                }, completion: nil)
         }else{
             answerView.textColor = UIColor.red
+            
+            UIView.animate(withDuration: 0.5, delay: 0.0,
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
+                            
+                            
+                }, completion: {
+                    (value: Bool) in
+                    self.answerView.alpha = 0.0
+            })
         }
     }
     
@@ -219,17 +200,19 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
-           
+                }, completion: nil)
         }else{
             answerView.textColor = UIColor.red
+            
+            UIView.animate(withDuration: 0.5, delay: 0.0,
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
+                            
+                            
+                }, completion: {
+                    (value: Bool) in
+                    self.answerView.alpha = 0.0
+            })
         }
     }
     
@@ -248,17 +231,20 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
+                }, completion: nil)
             
         }else{
             answerView.textColor = UIColor.red
+            
+            UIView.animate(withDuration: 0.5, delay: 0.0,
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
+                            
+                            
+                }, completion: {
+                    (value: Bool) in
+                    self.answerView.alpha = 0.0
+            })
         }
     }
     
@@ -277,16 +263,19 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
+                }, completion: nil)
         }else{
             answerView.textColor = UIColor.red
+            
+            UIView.animate(withDuration: 0.5, delay: 0.0,
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
+                            
+                            
+                }, completion: {
+                    (value: Bool) in
+                    self.answerView.alpha = 0.0
+            })
         }
     }
     
@@ -305,16 +294,18 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
+                }, completion: nil)
         }else{
             answerView.textColor = UIColor.red
+            UIView.animate(withDuration: 0.5, delay: 0.0,
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
+                            
+                            
+                }, completion: {
+                    (value: Bool) in
+                    self.answerView.alpha = 0.0
+            })
         }
     }
     
@@ -333,16 +324,19 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
+                }, completion: nil)
         }else{
             answerView.textColor = UIColor.red
+            
+            UIView.animate(withDuration: 0.5, delay: 0.0,
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
+                            
+                            
+                }, completion: {
+                    (value: Bool) in
+                    self.answerView.alpha = 0.0
+            })
         }
     }
     
@@ -361,29 +355,22 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: {
-                    (value: Bool) in
-                    self.starView1.alpha = 0.1
-                    self.starView2.alpha = 0.1
-                    self.starView3.alpha = 0.1
-                    self.starView4.alpha = 0.1
-                    self.starView5.alpha = 0.1
-            })
+                }, completion: nil)
         }else{
             answerView.textColor = UIColor.red
-            UIView.animate(withDuration: 0.5, delay: 0.4, animations: {
-                self.answerView.textColor = UIColor.red
+            
+            UIView.animate(withDuration: 0.5, delay: 0.0,
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
+                            
+                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.textColor = UIColor.black
+                    self.answerView.alpha = 0.0
             })
-            }
         }
-    override func viewWillAppear(_ animated: Bool) {
-        UIView.animate(withDuration: 0.5, animations: {
-            self.starView2.center.x += self.view.bounds.width
-        })
     }
+    
     
     
     @IBAction func playButtonView(_ sender: UIButton) {
@@ -396,9 +383,10 @@ class ViewController: UIViewController {
         
         
         
-        view.setNeedsDisplay()
+        //view.setNeedsDisplay()
         self.viewDidLoad()
         self.viewWillAppear(true)
+        
         numberView1.text = String(number1)
         numberView2.text = String(number2)
         apple1.center = CGPoint(x:120, y:630)
