@@ -24,7 +24,19 @@ class DragView: UIImageView {
         let dx = currentLocation!.x - startLocation!.x
         let dy = currentLocation!.y - startLocation!.y
         
-        self.center = CGPoint(x: self.center.x+dx, y: self.center.y+dy)
-    }
-    
+        var newcenter = CGPoint(x: self.center.x+dx, y: self.center.y+dy)
+        
+        
+        // Constrain movement into parent bounds
+        let halfx: CGFloat = self.bounds.midX
+        newcenter.x = CGFloat(max(halfx, newcenter.x))
+        newcenter.x = min(self.superview!.bounds.size.width - halfx,newcenter.x)
+        
+        let halfy : CGFloat = self.bounds.midY
+        newcenter.y = CGFloat(max(halfy, newcenter.y));
+       newcenter.y = max(self.superview!.bounds.size.width - halfy,newcenter.y)
+        
+        // Set new location
+        self.center = newcenter;
+}
 }
