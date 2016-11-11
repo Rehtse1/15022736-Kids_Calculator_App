@@ -31,6 +31,8 @@ class ViewController: UIViewController {
     var number2 = Int(arc4random_uniform(5))
     var answer = 0
     
+    let W = UIScreen.main.bounds.width
+    let H = UIScreen.main.bounds.height
     
     
     override func viewDidLoad()
@@ -51,6 +53,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+   // self.myFrame.frame = CGRectMake(W 0.05, H 0.2, W 0.75, H 0.2)
     
     @IBAction func buttonView0(_ sender: UIButton) {
         
