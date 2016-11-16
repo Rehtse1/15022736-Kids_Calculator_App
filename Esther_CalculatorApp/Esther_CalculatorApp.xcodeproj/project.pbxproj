@@ -31,6 +31,7 @@
 		84999B961DC00FEF000F2B98 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B871DC00FEF000F2B98 /* star_kids.png */; };
 		84999B971DC00FEF000F2B98 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B881DC00FEF000F2B98 /* thumbs_up.png */; };
 		84999B991DC01134000F2B98 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84999B981DC01134000F2B98 /* DragView.swift */; };
+		849E94801DDD00F600710A12 /* counting1.png in Resources */ = {isa = PBXBuildFile; fileRef = 849E947F1DDD00F600710A12 /* counting1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		84999B871DC00FEF000F2B98 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_kids.png; sourceTree = "<group>"; };
 		84999B881DC00FEF000F2B98 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
 		84999B981DC01134000F2B98 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		849E947F1DDD00F600710A12 /* counting1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = counting1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				84597B211DBD488F00ED3E00 /* Main.storyboard */,
 				84597B241DBD489000ED3E00 /* Assets.xcassets */,
 				84999B7A1DC00FEF000F2B98 /* number0.png */,
+				849E947F1DDD00F600710A12 /* counting1.png */,
 				84999B7B1DC00FEF000F2B98 /* number1.png */,
 				84999B7C1DC00FEF000F2B98 /* number2.png */,
 				84999B7D1DC00FEF000F2B98 /* number3.png */,
@@ -244,7 +247,7 @@
 				TargetAttributes = {
 					84597B191DBD488F00ED3E00 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = BV56ZN48NP;
+						DevelopmentTeam = G97K986D7P;
 						ProvisioningStyle = Automatic;
 					};
 					84597B2D1DBD489000ED3E00 = {
@@ -296,6 +299,7 @@
 				84999B891DC00FEF000F2B98 /* number0.png in Resources */,
 				84999B8D1DC00FEF000F2B98 /* number4.png in Resources */,
 				84999B791DC00FDB000F2B98 /* apple.png in Resources */,
+				849E94801DDD00F600710A12 /* counting1.png in Resources */,
 				84999B8B1DC00FEF000F2B98 /* number2.png in Resources */,
 				84597B231DBD488F00ED3E00 /* Main.storyboard in Resources */,
 				84999B921DC00FEF000F2B98 /* number9.png in Resources */,
@@ -479,11 +483,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BV56ZN48NP;
+				DEVELOPMENT_TEAM = G97K986D7P;
 				INFOPLIST_FILE = Esther_CalculatorApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Queen.Esther-CalculatorApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "King.Esther-CalculatorApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -494,11 +498,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BV56ZN48NP;
+				DEVELOPMENT_TEAM = G97K986D7P;
 				INFOPLIST_FILE = Esther_CalculatorApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Queen.Esther-CalculatorApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "King.Esther-CalculatorApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

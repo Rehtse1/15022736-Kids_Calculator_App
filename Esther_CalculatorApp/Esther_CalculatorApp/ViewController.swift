@@ -401,6 +401,8 @@ class ViewController: UIViewController {
         apple7.center = CGPoint(x:290, y:630)
         apple8.center = CGPoint(x:305, y:620)
         apple9.center = CGPoint(x:250, y:620)
+        plateWhite.center = CGPoint(x:309, y:183)
+        
     }
     @IBOutlet weak var apple1: DragView!
     @IBOutlet weak var apple2: DragView!
@@ -412,6 +414,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var apple8: DragView!
     @IBOutlet weak var apple9: DragView!
     
+    @IBOutlet weak var plateWhite: UIImageView!
     
 }
 

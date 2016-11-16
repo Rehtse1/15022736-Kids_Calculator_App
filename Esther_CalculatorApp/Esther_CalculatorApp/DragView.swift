@@ -28,7 +28,7 @@ class DragView: UIImageView {
         
         
         // Constrain movement into parent bounds
-        let halfx: CGFloat = self.bounds.midX
+       let halfx: CGFloat = self.bounds.midX
         newcenter.x = CGFloat(max(halfx, newcenter.x))
         newcenter.x = min(self.superview!.bounds.size.width - halfx,newcenter.x)
         
@@ -37,6 +37,7 @@ class DragView: UIImageView {
        newcenter.y = max(self.superview!.bounds.size.width - halfy,newcenter.y)
         
         // Set new location
+        
         self.center = newcenter;
 }
 }
