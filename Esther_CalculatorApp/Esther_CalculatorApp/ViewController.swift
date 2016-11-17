@@ -20,6 +20,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultsView: UIView!
     
+    @IBAction func Information(_ sender: AnyObject) {
+        let alert = UIAlertController(title: "Hint", message: "Drag apples to use as counters", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
     
     @IBOutlet weak var starView1: UIImageView!
     @IBOutlet weak var starView2: UIImageView!
