@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-  
+    
     @IBOutlet weak var numberView1: UILabel!
     @IBOutlet weak var numberView2: UILabel!
     @IBOutlet weak var answerView: UILabel!
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultsView: UIView!
     
+   
     @IBAction func Information(_ sender: AnyObject) {
         let alert = UIAlertController(title: "Hint", message: "Drag apples to use as counters", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
@@ -35,10 +37,8 @@ class ViewController: UIViewController {
     var number1 = Int(arc4random_uniform(5))
     var number2 = Int(arc4random_uniform(5))
     var answer = 0
-    
-    let W = UIScreen.main.bounds.width
-    let H = UIScreen.main.bounds.height
-    
+    var ButtonWrong = AVAudioPlayer()
+    var backgroundMusicP: AVAudioPlayer!
     
     override func viewDidLoad()
     {
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         
         self.resultsView.isHidden = true
         // Do any additional setup after loading the view, typically from a nib.
-    
+        bgMusic()
     }
     
     override func didReceiveMemoryWarning() {
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-   // self.myFrame.frame = CGRectMake(W 0.05, H 0.2, W 0.75, H 0.2)
+    // self.myFrame.frame = CGRectMake(W 0.05, H 0.2, W 0.75, H 0.2)
     
     @IBAction func buttonView0(_ sender: UIButton) {
         
@@ -75,18 +75,19 @@ class ViewController: UIViewController {
                             self.starView3.alpha = 0.0
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
-                }, completion: nil)
-        }else{
+                },completion: nil)
+           playCorrect()
+        }else
+        {
             answerView.textColor = UIColor.red
             UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
-                            
-                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
+          playError()
         }
     }
     
@@ -109,22 +110,21 @@ class ViewController: UIViewController {
                             self.starView5.alpha = 0.0
                 }, completion: nil)
             
+           playCorrect()
         }else{
             answerView.textColor = UIColor.red
-            
             UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
-                            
-                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
+            playError()
         }
- }
+    }
     
-
+    
     @IBAction func buttonView2(_ sender: UIButton) {
         
         if (answer == 2)
@@ -143,21 +143,18 @@ class ViewController: UIViewController {
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
                 }, completion: nil)
+            playCorrect()
         }else{
             answerView.textColor = UIColor.red
-            
             UIView.animate(withDuration: 0.5, delay: 0.0,
-                                       options: [.repeat], animations: {
-                                        self.answerView.alpha = 0.1
-                                        
-
+                           options: [.repeat], animations: {
+                            self.answerView.alpha = 0.1
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
-
+            playError()
         }
-        
     }
     
     @IBAction func buttonView3(_ sender: UIButton) {
@@ -177,18 +174,18 @@ class ViewController: UIViewController {
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
                 }, completion: nil)
+            playCorrect()
         }else{
             answerView.textColor = UIColor.red
             
             UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
-                            
-                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
+            playError()
         }
     }
     
@@ -209,18 +206,18 @@ class ViewController: UIViewController {
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
                 }, completion: nil)
+            playCorrect()
         }else{
             answerView.textColor = UIColor.red
             
             UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
-                            
-                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
+            playError()
         }
     }
     
@@ -241,18 +238,18 @@ class ViewController: UIViewController {
                             self.starView5.alpha = 0.0
                 }, completion: nil)
             
+            playCorrect()
         }else{
             answerView.textColor = UIColor.red
             
             UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
-                            
-                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
+            playError()
         }
     }
     
@@ -272,18 +269,18 @@ class ViewController: UIViewController {
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
                 }, completion: nil)
+            playCorrect()
         }else{
             answerView.textColor = UIColor.red
             
             UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
-                            
-                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
+            playError()
         }
     }
     
@@ -303,17 +300,17 @@ class ViewController: UIViewController {
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
                 }, completion: nil)
+            playCorrect()
         }else{
             answerView.textColor = UIColor.red
             UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
-                            
-                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
+            playError()
         }
     }
     
@@ -333,18 +330,18 @@ class ViewController: UIViewController {
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
                 }, completion: nil)
+            playCorrect()
         }else{
             answerView.textColor = UIColor.red
             
             UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
-                            
-                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
+            playError()
         }
     }
     
@@ -364,18 +361,18 @@ class ViewController: UIViewController {
                             self.starView4.alpha = 0.0
                             self.starView5.alpha = 0.0
                 }, completion: nil)
+            //playCorrect()
         }else{
             answerView.textColor = UIColor.red
             
             UIView.animate(withDuration: 0.5, delay: 0.0,
                            options: [.repeat], animations: {
                             self.answerView.alpha = 0.1
-                            
-                            
                 }, completion: {
                     (value: Bool) in
-                    self.answerView.alpha = 0.0
+                    self.answerView.alpha = 0.1
             })
+            playError()
         }
     }
     
@@ -383,10 +380,10 @@ class ViewController: UIViewController {
     
     @IBAction func playButtonView(_ sender: UIButton) {
         
-            number1 = Int(arc4random_uniform(5))
-            number2 = Int(arc4random_uniform(5))
-            answer = number1 + number2
-            self.answerView.alpha = 1
+        number1 = Int(arc4random_uniform(5))
+        number2 = Int(arc4random_uniform(5))
+        answer = number1 + number2
+        self.answerView.alpha = 1
         answerView.textColor = UIColor.black
         
         
@@ -421,7 +418,52 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var plateWhite: UIImageView!
     
+  func playError()  {
+        let url = Bundle.main.path(forResource: "cartoon008", ofType: "mp3")
+        if url != nil {
+            let audioFileURL = NSURL.fileURL(withPath: url!)
+            do{
+                ButtonWrong = try AVAudioPlayer(contentsOf: audioFileURL)
+            }catch _ as NSError{
+                print("error")
+            }
+            ButtonWrong.volume = 1
+            ButtonWrong.play()
+        }else{
+            print("audio file is not found")
+        }
+    }
+    
+    func playCorrect()  {
+        let url = Bundle.main.path(forResource: "musical100", ofType: "mp3")
+        if url != nil {
+            let audioFileURL = NSURL.fileURL(withPath: url!)
+            do{
+                ButtonWrong = try AVAudioPlayer(contentsOf: audioFileURL)
+            }catch _ as NSError{
+                print("error")
+            }
+            ButtonWrong.volume = 1
+            ButtonWrong.play()
+        }else{
+            print("audio file is not found")
+        }
+    }
+    func bgMusic()  {
+        let url = Bundle.main.path(forResource: "bensound-cute", ofType: "mp3")
+        if url != nil {
+            let audioFileURL = NSURL.fileURL(withPath: url!)
+            do{
+               backgroundMusicP = try AVAudioPlayer(contentsOf: audioFileURL)
+            }catch _ as NSError{
+                print("error")
+            }
+            backgroundMusicP.numberOfLoops = -1
+            backgroundMusicP.volume = 0.5
+            backgroundMusicP.play()
+            
+        }else{
+            print("audio file is not found")
+        }
+    }
 }
-
-
-

@@ -32,6 +32,9 @@
 		84999B971DC00FEF000F2B98 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 84999B881DC00FEF000F2B98 /* thumbs_up.png */; };
 		84999B991DC01134000F2B98 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84999B981DC01134000F2B98 /* DragView.swift */; };
 		849E94801DDD00F600710A12 /* counting1.png in Resources */ = {isa = PBXBuildFile; fileRef = 849E947F1DDD00F600710A12 /* counting1.png */; };
+		84EBB4601DDF806D002262DF /* cartoon008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84EBB45F1DDF806D002262DF /* cartoon008.mp3 */; };
+		84EBB4621DDF8079002262DF /* musical100.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84EBB4611DDF8079002262DF /* musical100.mp3 */; };
+		84F9875E1DDF9CD200040200 /* bensound-cute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F9875D1DDF9CD200040200 /* bensound-cute.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		84999B881DC00FEF000F2B98 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
 		84999B981DC01134000F2B98 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 		849E947F1DDD00F600710A12 /* counting1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = counting1.png; sourceTree = "<group>"; };
+		84EBB45F1DDF806D002262DF /* cartoon008.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cartoon008.mp3; path = ../cartoon008.mp3; sourceTree = "<group>"; };
+		84EBB4611DDF8079002262DF /* musical100.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = musical100.mp3; path = ../musical100.mp3; sourceTree = "<group>"; };
+		84F9875D1DDF9CD200040200 /* bensound-cute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-cute.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84215B271DDE493D0078B897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84597B111DBD488F00ED3E00 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +130,7 @@
 				84597B311DBD489000ED3E00 /* Esther_CalculatorAppTests */,
 				84597B3C1DBD489000ED3E00 /* Esther_CalculatorAppUITests */,
 				84597B1B1DBD488F00ED3E00 /* Products */,
+				84215B271DDE493D0078B897 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,8 +151,11 @@
 				84597B1F1DBD488F00ED3E00 /* ViewController.swift */,
 				84999B981DC01134000F2B98 /* DragView.swift */,
 				84597B211DBD488F00ED3E00 /* Main.storyboard */,
+				84F9875D1DDF9CD200040200 /* bensound-cute.mp3 */,
 				84597B241DBD489000ED3E00 /* Assets.xcassets */,
 				84999B7A1DC00FEF000F2B98 /* number0.png */,
+				84EBB45F1DDF806D002262DF /* cartoon008.mp3 */,
+				84EBB4611DDF8079002262DF /* musical100.mp3 */,
 				849E947F1DDD00F600710A12 /* counting1.png */,
 				84999B7B1DC00FEF000F2B98 /* number1.png */,
 				84999B7C1DC00FEF000F2B98 /* number2.png */,
@@ -247,7 +264,7 @@
 				TargetAttributes = {
 					84597B191DBD488F00ED3E00 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = G97K986D7P;
+						DevelopmentTeam = BV56ZN48NP;
 						ProvisioningStyle = Automatic;
 					};
 					84597B2D1DBD489000ED3E00 = {
@@ -288,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84597B281DBD489000ED3E00 /* LaunchScreen.storyboard in Resources */,
+				84EBB4621DDF8079002262DF /* musical100.mp3 in Resources */,
 				84999B911DC00FEF000F2B98 /* number8.png in Resources */,
 				84999B941DC00FEF000F2B98 /* plate.png in Resources */,
 				84597B251DBD489000ED3E00 /* Assets.xcassets in Resources */,
@@ -296,6 +314,7 @@
 				84999B8C1DC00FEF000F2B98 /* number3.png in Resources */,
 				84999B931DC00FEF000F2B98 /* plate_white.png in Resources */,
 				84999B8A1DC00FEF000F2B98 /* number1.png in Resources */,
+				84EBB4601DDF806D002262DF /* cartoon008.mp3 in Resources */,
 				84999B891DC00FEF000F2B98 /* number0.png in Resources */,
 				84999B8D1DC00FEF000F2B98 /* number4.png in Resources */,
 				84999B791DC00FDB000F2B98 /* apple.png in Resources */,
@@ -306,6 +325,7 @@
 				84999B971DC00FEF000F2B98 /* thumbs_up.png in Resources */,
 				84999B8F1DC00FEF000F2B98 /* number6.png in Resources */,
 				84999B961DC00FEF000F2B98 /* star_kids.png in Resources */,
+				84F9875E1DDF9CD200040200 /* bensound-cute.mp3 in Resources */,
 				84999B951DC00FEF000F2B98 /* play_again.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,11 +503,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G97K986D7P;
+				DEVELOPMENT_TEAM = BV56ZN48NP;
 				INFOPLIST_FILE = Esther_CalculatorApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "King.Esther-CalculatorApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Queen.Esther-CalculatorApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,11 +518,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G97K986D7P;
+				DEVELOPMENT_TEAM = BV56ZN48NP;
 				INFOPLIST_FILE = Esther_CalculatorApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "King.Esther-CalculatorApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Queen.Esther-CalculatorApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
