@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,32 +19,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lME-Od-Kzt">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="1ee-Nx-Sco"/>
-                                    <constraint firstAttribute="width" secondItem="lME-Od-Kzt" secondAttribute="height" multiplier="85:24" id="mSe-od-wdI"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counting1.png" translatesAutoresizingMaskIntoConstraints="NO" id="qCN-Dx-ag7"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="271" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lME-Od-Kzt">
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="38"/>
                                 <color key="textColor" red="0.60000002379999995" green="0.59666993489999998" blue="0.54845792360000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counting1.png" translatesAutoresizingMaskIntoConstraints="NO" id="qCN-Dx-ag7">
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="qCN-Dx-ag7" secondAttribute="height" multiplier="312:347" id="3UK-Sh-FDr"/>
-                                    <constraint firstAttribute="width" constant="312" id="5XQ-9u-Vdy"/>
-                                    <constraint firstAttribute="height" constant="347" id="9xI-DV-8dg"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lME-Od-Kzt" secondAttribute="bottom" constant="90" id="5ns-Jx-tDl"/>
-                            <constraint firstItem="lME-Od-Kzt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="86" id="K8j-XQ-z7y"/>
-                            <constraint firstItem="qCN-Dx-ag7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TFn-Dv-Pa2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lME-Od-Kzt" secondAttribute="trailing" constant="87" id="aM3-ki-9BX"/>
-                            <constraint firstItem="qCN-Dx-ag7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="iok-am-iTG"/>
-                            <constraint firstItem="lME-Od-Kzt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="86" id="n02-ef-Y5Z"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lME-Od-Kzt" secondAttribute="bottom" constant="90" id="zNv-la-XBq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qCN-Dx-ag7" secondAttribute="trailing" constant="59" id="73d-EY-TXl"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lME-Od-Kzt" secondAttribute="bottom" constant="66" id="VQh-mv-y78"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lME-Od-Kzt" secondAttribute="trailing" constant="64" id="Y6G-Bh-kk9"/>
+                            <constraint firstItem="lME-Od-Kzt" firstAttribute="top" secondItem="qCN-Dx-ag7" secondAttribute="bottom" constant="36" id="ZoV-c0-UFD"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="qCN-Dx-ag7" secondAttribute="bottom" constant="160" id="h4C-D0-K9L"/>
+                            <constraint firstItem="qCN-Dx-ag7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="59" id="i3S-bG-PCr"/>
+                            <constraint firstItem="lME-Od-Kzt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="64" id="jUc-Ef-c2n"/>
+                            <constraint firstItem="qCN-Dx-ag7" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="140" id="rXq-yJ-rSP"/>
                         </constraints>
                     </view>
                 </viewController>

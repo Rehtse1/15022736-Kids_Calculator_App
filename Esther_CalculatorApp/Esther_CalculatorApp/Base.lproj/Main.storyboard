@@ -250,8 +250,7 @@
                                     <action selector="Information:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DTN-Qy-WHG"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3X-Rb-72M">
-                                <frame key="frameInset" minY="-184" width="414" height="736"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3X-Rb-72M">
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xx9-L4-3d2">
                                         <constraints>
@@ -264,7 +263,7 @@
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="U6a-Dq-QXH" userLabel="star_kids.png1">
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="84" id="vT2-0t-FNI"/>
+                                            <constraint firstAttribute="height" constant="60" id="vT2-0t-FNI"/>
                                             <constraint firstAttribute="width" secondItem="U6a-Dq-QXH" secondAttribute="height" multiplier="53:42" id="zBt-5U-8zX"/>
                                         </constraints>
                                     </imageView>
@@ -326,12 +325,11 @@
                                     </stackView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="NJc-BT-91p" userLabel="star_kids.png5">
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="NJc-BT-91p" secondAttribute="height" multiplier="71:63" id="5KC-em-oHd"/>
-                                            <constraint firstAttribute="height" constant="63" id="WZO-KZ-euR"/>
+                                            <constraint firstAttribute="height" constant="62" id="LML-UE-d3O"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="0ns-r0-18V" firstAttribute="leading" secondItem="k3X-Rb-72M" secondAttribute="leading" constant="30" id="2Og-EZ-qw1"/>
                                     <constraint firstItem="f4k-b1-jjg" firstAttribute="leading" secondItem="k3X-Rb-72M" secondAttribute="leading" id="2yr-aG-wDS"/>
@@ -339,22 +337,24 @@
                                     <constraint firstItem="0ns-r0-18V" firstAttribute="top" secondItem="nJm-fs-QKw" secondAttribute="bottom" constant="15" id="3kl-I5-L4b"/>
                                     <constraint firstItem="Hu5-VH-QAq" firstAttribute="top" secondItem="Xx9-L4-3d2" secondAttribute="bottom" constant="32" id="8V2-4j-i4w"/>
                                     <constraint firstItem="Xx9-L4-3d2" firstAttribute="leading" secondItem="f4k-b1-jjg" secondAttribute="trailing" constant="19" id="8dw-1B-hJm"/>
+                                    <constraint firstItem="NJc-BT-91p" firstAttribute="top" secondItem="Xx9-L4-3d2" secondAttribute="bottom" constant="136" id="CDm-Mm-gVU"/>
                                     <constraint firstItem="Xx9-L4-3d2" firstAttribute="top" secondItem="0ns-r0-18V" secondAttribute="bottom" constant="65" id="IIh-35-egH"/>
                                     <constraint firstAttribute="trailing" secondItem="0ns-r0-18V" secondAttribute="trailing" constant="30" id="KIA-xe-pbx"/>
                                     <constraint firstItem="U6a-Dq-QXH" firstAttribute="top" secondItem="k3X-Rb-72M" secondAttribute="top" constant="39" id="Lnx-6i-kE1"/>
                                     <constraint firstItem="U6a-Dq-QXH" firstAttribute="leading" secondItem="k3X-Rb-72M" secondAttribute="leading" constant="25" id="MK1-Ax-Nme"/>
+                                    <constraint firstAttribute="bottom" secondItem="NJc-BT-91p" secondAttribute="bottom" constant="68" id="Mbm-Uk-ydf"/>
                                     <constraint firstAttribute="trailing" secondItem="nJm-fs-QKw" secondAttribute="trailing" constant="65" id="NJC-x4-YL3"/>
+                                    <constraint firstItem="NJc-BT-91p" firstAttribute="leading" secondItem="k3X-Rb-72M" secondAttribute="leading" constant="187" id="SHg-cG-UHG"/>
                                     <constraint firstAttribute="bottom" secondItem="Hu5-VH-QAq" secondAttribute="bottom" constant="150" id="Uhr-nq-SkT"/>
                                     <constraint firstAttribute="bottom" secondItem="gLu-qY-TyT" secondAttribute="bottom" constant="139" id="VfU-ZT-1DG"/>
                                     <constraint firstItem="Hu5-VH-QAq" firstAttribute="leading" secondItem="k3X-Rb-72M" secondAttribute="leading" constant="50" id="WvS-Gt-MEW"/>
                                     <constraint firstItem="f4k-b1-jjg" firstAttribute="leading" secondItem="k3X-Rb-72M" secondAttribute="leading" id="YKz-lQ-R69"/>
                                     <constraint firstItem="0ns-r0-18V" firstAttribute="leading" secondItem="k3X-Rb-72M" secondAttribute="leading" constant="30" id="YMY-NA-GbF"/>
+                                    <constraint firstAttribute="trailing" secondItem="NJc-BT-91p" secondAttribute="trailing" constant="158" id="Zcb-Bk-OMx"/>
                                     <constraint firstItem="Hu5-VH-QAq" firstAttribute="top" secondItem="f4k-b1-jjg" secondAttribute="bottom" constant="64" id="a2o-oI-BR9"/>
                                     <constraint firstItem="Xx9-L4-3d2" firstAttribute="centerX" secondItem="k3X-Rb-72M" secondAttribute="centerX" id="bNb-GU-KMG"/>
                                     <constraint firstAttribute="trailing" secondItem="gLu-qY-TyT" secondAttribute="trailing" constant="24" id="ekt-20-zva"/>
-                                    <constraint firstItem="NJc-BT-91p" firstAttribute="top" secondItem="Hu5-VH-QAq" secondAttribute="bottom" constant="59" id="hsB-i9-I4M"/>
                                     <constraint firstItem="nJm-fs-QKw" firstAttribute="top" secondItem="k3X-Rb-72M" secondAttribute="top" constant="64" id="oz0-k1-0fx"/>
-                                    <constraint firstItem="gLu-qY-TyT" firstAttribute="leading" secondItem="NJc-BT-91p" secondAttribute="trailing" constant="41" id="rMj-9n-YRJ"/>
                                 </constraints>
                             </view>
                         </subviews>

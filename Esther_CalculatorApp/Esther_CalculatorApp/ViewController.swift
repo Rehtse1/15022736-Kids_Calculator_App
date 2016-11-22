@@ -34,6 +34,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var starView4: UIImageView!
     @IBOutlet weak var starView5: UIImageView!
     
+    
+    
     var number1 = Int(arc4random_uniform(5))
     var number2 = Int(arc4random_uniform(5))
     var answer = 0
@@ -51,6 +53,8 @@ class ViewController: UIViewController {
         self.resultsView.isHidden = true
         // Do any additional setup after loading the view, typically from a nib.
         bgMusic()
+        
+        starView4.center = CGPoint(x:180, y:600)
     }
     
     override func didReceiveMemoryWarning() {
@@ -404,6 +408,7 @@ class ViewController: UIViewController {
         apple8.center = CGPoint(x:305, y:620)
         apple9.center = CGPoint(x:250, y:620)
         plateWhite.center = CGPoint(x:309, y:183)
+        
         
     }
     @IBOutlet weak var apple1: DragView!
